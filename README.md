@@ -86,49 +86,49 @@ dmesg | tail -3
 | # | What it shows |
 |---|---|
 
-![Screenshot 1](./screenshots/S1.png)
+![Screenshot 1](./Screenshots/S1.png)
 
-![Screenshot 2](./screenshots/S2.png)
+![Screenshot 2](./Screenshots/S2.png)
 
 | 1 | Two containers running under one supervisor |
 
-![Screenshot 3](./screenshots/S3.png)
+![Screenshot 3](./Screenshots/S3.png)
 
 | 2 | `engine ps` output with both containers listed |
 
-![Screenshot 4](./screenshots/S4.png)
+![Screenshot 4](./Screenshots/S4.png)
 
 | 3 | Log file contents from `engine logs alpha` |
 
-![Screenshot 5](./screenshots/S5.png)
+![Screenshot 5](./Screenshots/S5.png)
 
 | 4 | `engine stop alpha` command and supervisor response |
 
-![Screenshot 6](./screenshots/S6.png)
+![Screenshot 6](./Screenshots/S6.png)
 
 | 5 | `dmesg` showing SOFT LIMIT warning for memtest |
 
-![Screenshot 7](./screenshots/S7.png)
+![Screenshot 7](./Screenshots/S7.png)
 
 | 6 | `dmesg` showing HARD LIMIT kill + `engine ps` showing hard_limit_killed |
 
-![Screenshot 8](./screenshots/S8.png)
+![Screenshot 8](./Screenshots/S8.png)
 
 | 7 | `time` output for exp1 vs exp2 and cpuexp vs ioexp showing different completion times |
 
 exp1 vs exp2 based on priority:
 
-![Screenshot 9](./screenshots/S9.png)
+![Screenshot 9](./Screenshots/S9.png)
 
-![Screenshot 10](./screenshots/S10.png)
+![Screenshot 10](./Screenshots/S10.png)
 
-![Screenshot 11](./screenshots/S11.png)
+![Screenshot 11](./Screenshots/S11.png)
 
 cpuexp vs ioexp based on cpu bound and i/o bound process:
 
-![Screenshot 12](./screenshots/S12.png)
+![Screenshot 12](./Screenshots/S12.png)
 
-![Screenshot 13](./screenshots/S13.png)
+![Screenshot 13](./Screenshots/S13.png)
 
 | 8 | Supervisor "Clean exit. No zombies." message + `ps aux | grep defunct` empty |
 
